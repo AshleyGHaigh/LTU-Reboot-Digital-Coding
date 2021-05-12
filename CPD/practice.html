@@ -16,47 +16,56 @@ I'm not sure where this goes
     <h2 style="color:#48f542">
         This is a second-level heading, styled to be the a unique colour using a hex code.
     </h2>
-    <h3>
-        This is a third-level heading, styled to be my perfect colour using RGB colour palette.
+    <h3 style="color:rgb(213, 220, 228)">
+        This is a third-level heading, styled to be my perfect colour text using an RGB colour palette.
     </h3>
-    <p>
-        <strong>
-            This is also a paragraph, in bold this time, and this word with <em>emphasis/italics</em>.
-        </strong>
-        <blockquote>
-            This is a quote.
-        </blockquote>
-    </p>
-    <!-- This is a comment.-->
-    <p>
-        <ol>
-            <li>This is a list item in an ordered list.</li>
-            <li>This is a second list item.</li>    
-        </ol>
-        <ul>
-            <li>This is a list item in an unordered list.</li>
-            <li>This is a second list item.</li>
-        </ul>
-        <img src="https://www.picturesofengland.com/img/X/1057350.jpg" alt="An image of Golcar village in Huddersfield">
-            <!--The above is an image of Golcar village in Huddersfield with alt text for screen readers-->
-        <img src="../module-2/task/assets/google_logo.png" alt="Image of Google logo">
-            <!--The above is an image of the Google logo taken from the file path listed above.
-            The ../ feature means that it is not in the same file. Just one dot i.e. ./ would mean in the same file.-->
-        <a href="https://www.leedsbeckett.ac.uk/degree-apprenticeships/">
-            This is a link to the Leeds Beckett University Apprenticeships page.
-        </a>
-            <!--The above provides a link, then the text which should provide the link.-->
-        <a href="https://www.leedsbeckett.ac.uk/degree-apprenticeship-courses/environmental-health/" target="_blank">
-            This is a link to the Environmental Health Degree Apprenticeship page, which opens in another tab/window.
-        </a>
-            <!--Using the target="_blank" part makes it open in a new tab/window.-->
-        <a href="tel:+447774034738">
-            This is a link to call my number.
-        </a>
-        <a href="mailto:ashley.g.haigh@gmail.com" target="blank">
-            This is a link to e-mail me, opening in a new tab/window.
-        </a>
-    </p>
+    <style>
+        p {
+            background-color: rgb(213, 220, 228);
+            font-size: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+    </style>
+        <!--The above inserts style into the below, making anything nesting with a paragraph have the above styling.-->
+        <p>
+            <strong>
+                This is also a paragraph, in bold this time, and this word with <em>emphasis/italics</em>.
+            </strong>
+            <blockquote>
+                This is a quote.
+            </blockquote>
+        </p>
+        <!-- This is a comment.-->
+        <p>
+            <ol>
+                <li>This is a list item in an ordered list.</li>
+                <li>This is a second list item.</li>    
+            </ol>
+            <ul>
+                <li>This is a list item in an unordered list.</li>
+                <li>This is a second list item.</li>
+            </ul>
+            <img src="https://www.picturesofengland.com/img/X/1057350.jpg" alt="An image of Golcar village in Huddersfield">
+                <!--The above is an image of Golcar village in Huddersfield with alt text for screen readers-->
+            <img src="../module-2/task/assets/google_logo.png" alt="Image of Google logo">
+                <!--The above is an image of the Google logo taken from the file path listed above.
+                The ../ feature means that it is not in the same file. Just one dot i.e. ./ would mean in the same file.-->
+            <a href="https://www.leedsbeckett.ac.uk/degree-apprenticeships/">
+                This is a link to the Leeds Beckett University Apprenticeships page.
+            </a>
+                <!--The above provides a link, then the text which should provide the link.-->
+            <a href="https://www.leedsbeckett.ac.uk/degree-apprenticeship-courses/environmental-health/" target="_blank">
+                This is a link to the Environmental Health Degree Apprenticeship page, which opens in another tab/window.
+            </a>
+                <!--Using the target="_blank" part makes it open in a new tab/window.-->
+            <a href="tel:+447774034738">
+                This is a link to call my number.
+            </a>
+            <a href="mailto:ashley.g.haigh@gmail.com" target="blank">
+                This is a link to e-mail me, opening in a new tab/window.
+            </a>
+        </p>
 </body>
 <footer>
     This is the footer.
